@@ -1,1 +1,1 @@
-# css-grid-prac
+# A CSS Grid Practice Session
