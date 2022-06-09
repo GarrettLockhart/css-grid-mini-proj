@@ -152,7 +152,7 @@ p {
   background-color: var(--secondary-color);
   border-radius: 15px;
   margin: 0 auto;
-  padding: 20px 10px;
+  padding: 20px 25px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
     rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -184,10 +184,28 @@ p {
   padding-top: 50px;
 }
 
-.grid-3 {
+.grid-cards:nth-of-type(3) {
   display: grid;
   grid-column-start: 1;
   grid-column-end: 3;
+}
+
+#grid-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-link {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #ff7366;
+}
+
+.card-link:hover {
+  cursor: pointer;
 }
 
 /* Footer */
@@ -213,6 +231,12 @@ p {
   color: var(--secondary-color);
 }
 
+.footer-container ul li:nth-of-type(1) {
+  border-bottom: 2px solid white;
+  padding: 0;
+  margin-bottom: 4px;
+}
+
 .form-container {
   display: flex;
   flex-direction: column;
@@ -222,6 +246,7 @@ p {
 .form-container label {
   color: var(--secondary-color);
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 .form-container input {
@@ -230,12 +255,10 @@ p {
   border: none;
 }
 
-.entry-field {
-}
-
 .newsletter-btn {
   padding: 15px 10px;
   border: none;
+  font-weight: bold;
 }
 
 .newsletter-btn:hover {
