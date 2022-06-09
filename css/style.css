@@ -37,11 +37,6 @@ p {
   color: var(--opaque);
 }
 
-/*
-img {
-  width: 100%;
-}
-*/
 .full-page-container {
   max-width: 960px;
   margin: 0 auto;
